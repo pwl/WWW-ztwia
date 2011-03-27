@@ -29,6 +29,13 @@ img.left,img.center,img.right{padding:4px; border:1px solid #a0a0a0;}
 img.left{float:left; margin:0 12px 5px 0;}
 img.center{display:block; margin:0 auto 5px auto;}
 img.right{float:right; margin:0 0 5px 12px;}
+#emblem{
+    float:left;
+    height:108px;
+    margin: 0 0 0 0;
+    border:none;
+    padding:0 0px 0 10px;
+}
 
 /**************** Header and navigation styles ****************/
 
@@ -50,8 +57,14 @@ background:#467aa7;
 color:#ffffff;
 }
 
+#header_text{
+width:550px;
+float:left;
+margin:0 0 0 0;
+}
+
 #header h1{
-padding:35px 0 0 20px;
+padding:35px 0 0 10px;
 font-size:2.4em;
 background-color:inherit;
 color:#ffffff;
@@ -60,7 +73,7 @@ font-weight:normal;
 }
 
 #header h2{
-margin:10px 0 0 40px;
+margin:10px 0 0 30px;
 font-size:1.4em;
 background-color:inherit;
 color:#f0f2f4;
@@ -135,7 +148,8 @@ background-color:inherit;
 #content dl{margin:0 0 15px 0;}
 /* #content dt{font-weight:bold; margin-bottom:5px;} */
 #content dt{font-weight:bold; margin:10px 0 0 0;}
-#content dd{margin:0 0 0 25px;}
+#content dd{margin:0 0 0 30px;}
+#content dt em{font-weight:normal;font-style:normal;font-color:red;}
 #content dd a{font-weight:normal;}
 
 /**************** Sidebar styles ****************/
