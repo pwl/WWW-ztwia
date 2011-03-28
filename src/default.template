@@ -16,8 +16,8 @@
       <div id="header">
         <img class="right" id="emblem" src="img/uj.png"/>
 	<div id="header_text">
-	  <h1><a href="{relocatable: /index.html}">Jagiellonian University</a></h1>
-          <h2>Department of General Relativity and Astrophysics</h2>
+	  <h1><a href="http://www.uj.edu.pl">Jagiellonian University</a></h1>
+          <h2><a href="{relocatable: /index.html}">Department of General Relativity and Astrophysics</a></h2>
 	</div>
       </div>
 
@@ -30,30 +30,26 @@
       </div>
 
       <div id="subcontent">
-        
+
         <h2>Menu</h2>
         <div id="submenu">{menu: }</div>
 
         <h2>Links</h2>
         <ul class="linkblock">
-	  <li><a href="http://users.uj.edu.pl/~gfurtak/v3_0/">Seminars</a></li>
-          <li><a href="http://www.uj.edu.pl">Jagiellonian University</a></li>
+	  <li><a href="http://www.uj.edu.pl">Jagiellonian University</a></li>
 	  <li><a href="http://www.if.uj.edu.pl">Institute of Physics</a></li>
+	  <li><a href="http://www.fais.uj.edu.pl">Faculty of Physics, Astronomy and Applied Computer Science</a></li>
+        </ul>
+	<h2>Activities</h2>
+        <ul class="linkblock">
 	  <li><a href="http://th-www.if.uj.edu.pl/~krageomp/">KraGeoMP</a></li>
+	  <li><a href="http://sites.google.com/site/geometryandphysics/">Geometry and Physics in Kraków</a></li>
         </ul>
 
 	<!-- <div class="small box"><strong>Note: </strong>This is a box. It can be used for special messages both in the sidebar and the content section. You could use it for special notes and announcements, but also as a frame for photos. This space can be used for a short website presentation!</div> -->
 	<div class="small box">
-	  <strong>Address:</strong><br />
-	  Department of General Relativity and Astrophysics<br />
-	  ul. Reymonta 4<br /> 30-059 Kraków<br />
-	  Polska<br />
-	  <strong>Telephone:</strong><br />
-	  ?????<br />
-	  <strong>E-mail:</strong><br />
-	  ?????<br />
+	  <webgen:block name="content" chain="contact.html" />
 	</div>
-
 
       </div>
 

@@ -81,6 +81,10 @@ letter-spacing:-1px;
 font-weight:normal;
 }
 
+#header h2 a{
+font-weight:normal;
+}
+
 #header a {
 text-decoration:none;
 color: #ffffff;
@@ -149,8 +153,11 @@ background-color:inherit;
 /* #content dt{font-weight:bold; margin-bottom:5px;} */
 #content dt{font-weight:bold; margin:10px 0 0 0;}
 #content dd{margin:0 0 0 30px;}
-#content dt em{font-weight:normal;font-style:normal;font-color:red;}
-#content dd a{font-weight:normal;}
+#content dt em{
+    font-weight:normal;
+    font-style:normal;
+}
+#content a{font-weight:normal;}
 
 /**************** Sidebar styles ****************/
 
@@ -238,4 +245,13 @@ border:1px solid #c0c0c0;
 background-color:#fafbfc;
 color:#505050;
 line-height:1.5em;
+}
+
+#subcontent .box p{
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+
+#subcontent .box a{
+font-weight:normal;
 }
