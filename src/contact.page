@@ -2,19 +2,19 @@
 name: contact
 pipeline: maruku
 no_output: false
-in_menu: true
+in_menu: false
 sort_info: 1
 ---
-**Address:**  
-Department of General Relativity and Astrophysics  
-ul. Reymonta 4  
-30-059 Kraków  
-Polska  
-**Telephone:**  
-+48 12 663 5677  
-+48 12 663 5726  
-**Fax:**  
-+48 12 633 4079  
-**E-mail:**  
-<grazyna.rojek@if.uj.edu.pl>  
+**Address:**
+Department of General Relativity and Astrophysics
+ul. Reymonta 4
+30-059 Kraków
+Polska
+**Telephone:**
++48 12 663 5677
++48 12 663 5726
+**Fax:**
++48 12 633 4079
+**E-mail:**
+<grazyna.rojek@if.uj.edu.pl>
 <sekret@th.if.uj.edu.pl>
