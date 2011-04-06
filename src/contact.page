@@ -3,7 +3,7 @@ name: contact
 pipeline: maruku
 no_output: false
 in_menu: true
-sort_info: 2
+sort_info: 1
 ---
 **Address:**  
 Department of General Relativity and Astrophysics  

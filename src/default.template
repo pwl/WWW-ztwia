@@ -45,8 +45,10 @@
 	  <li><a href="http://www.uj.edu.pl">Jagiellonian University</a></li>
 	  <li><a href="http://www.fais.uj.edu.pl">Faculty of Physics, Astronomy and Applied Computer Science</a></li>
           <li><a href="http://www.if.uj.edu.pl">Institute of Physics</a></li>
+	  <li><a href="http://deszno.if.uj.edu.pl">Deszno</a></li>
+	  <li><a href="http://users.uj.edu.pl/~gfurtak/v3_0/">Seminars</a></li>
 	</ul>
-	
+
 	<!-- <div class="small box"><strong>Note: </strong>This is a box. It can be used for special messages both in the sidebar and the content section. You could use it for special notes and announcements, but also as a frame for photos. This space can be used for a short website presentation!</div> -->
 	<div class="small box">
 	  <webgen:block name="content" chain="contact.html" />
