@@ -1,10 +1,10 @@
 ---
 name: Contact
 pipeline: maruku
-in_menu: true
+in_menu: false
 sort_info: 1
 ---
-**Address:**
+**Address:**  
 Department of General Relativity and Astrophysics  
 ul. Reymonta 4  
 30-059 Kraków  
